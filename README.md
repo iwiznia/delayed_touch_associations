@@ -13,6 +13,8 @@ Add to your Gemfile:
 
 ## Usage
 
+Inside your ActiveRecord model:
+
         include DelayedTouchAssociations
 
-Be sure to include the model AFTER all the associations are defined.
+Be sure to include the module AFTER all the associations are defined.
